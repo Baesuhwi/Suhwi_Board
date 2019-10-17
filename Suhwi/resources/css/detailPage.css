@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.container input[type="submit"] {
+	background: #28d;
+	border-color: transparent;
+	color: #fff;
+	cursor: pointer;
+}
+
+.container input[type="submit"]:hover {
+	background: #17c;
+}
+
+/* Buttons' focus effect */
+.container input[type="submit"]:focus {
+	border-color: #05a;
+}
+
+input#reply {
+    width: 500px;
+}
